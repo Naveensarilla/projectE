@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Libre Baskerville', serif;; */
+}
+.explore-contantText h1{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 3rem;
+    color: #00a3ff;
+    text-shadow: 2px 9px 8px black;
+    cursor: pointer;
+    margin-bottom: 1.7rem;
+}
+
+.hand-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.hand{
+    animation: hand infinite 0.5s linear alternate;
+}
+.hand i{
+    color: rgb(182, 14, 23);
+}
+.cards-container{
+    /* display: grid;
+    grid-template-columns: repeat(4 , 1fr); */
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.cardsContant {
+    background: rgb(188 222 219);
+    width: 15rem;
+    height: 10rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+.cardImg {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardFlex {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .cardsContant:nth-child(1){
+    background: rgb(238, 176, 176);
+    background: linear-gradient(179deg, #fff,  rgb(255, 161, 161));
+
+} */
+/* .cardsContant:nth-child(2){
+    background: #dee9fcff;
+}
+.cardsContant:nth-child(3){
+    background: #33d2beff;
+}
+.cardsContant:nth-child(4){
+    background: #7ecde1ff;
+}
+.cardsContant:nth-child(5){
+    background: #d78dd3ff;
+}
+.cardsContant:nth-child(6){
+    background: #c7f1f4ff;
+}
+.cardsContant:nth-child(7){
+    background: #e43790ff;
+}
+.cardsContant:nth-child(8){
+    background: #85be65ff;
+}
+.cardsContant:nth-child(9){
+    background: rgb(192, 161, 161);
+}
+.cardsContant:nth-child(10){
+    background: #e1e1e1ff;
+}
+.cardsContant:nth-child(11){
+    background: #68e7acff;
+} */
+
+
+/* hover */
+.cardsContant {
+    background: linear-gradient(179deg, #c0c0c0c0, #d1f1fd);
+    display: flex;
+}
+/* .cardsContant{
+    background: linear-gradient(179deg, #045a7a, #ffffff);
+} */
+/* .cardFlex h4 {
+    background: #dcffef;
+    padding: 5px 37px 5px 37px;
+    color: red;
+    font-size: 19px;
+    letter-spacing: 6px;
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+    border-image: linear-gradient(to right, #fba6a6, #491c5f) 1;
+    border-width: 2px;
+} */
+
+.cardFlex h4 {
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 6px;
+    color: #e26363;
+     /* width: 100%; */
+    /* background: linear-gradient(179deg, #e5f8ff, #ffffff);
+    padding: 5px 37px 5px 37px;
+    color: #ff5500;
+    font-size: 19px;
+    letter-spacing: 6px;
+    text-align: center;
+    border-style: solid;
+    border-image: linear-gradient(to right, #fba6a6, #491c5f) 1;
+    border-width: 3px;
+    margin-top: 13px; */
+
+    /* background-image: linear-gradient(169deg, #6bc4ff, #ffffff, #7cc5ff, #fff, #52b7ff ); */
+}
+.cardFlex h4:hover {
+    transition: 1s ease-in-out;
+    /* background-image: linear-gradient(169deg, #ffffff, #dcfaff, #7cc5ff, #fff, #ffd5d5 ); */
+}
+.CoursesTextIcons {
+    /* padding: 1rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    /* background: wheat; */
+    width: 100%;
+    height: auto;
+    color: #000000;
+    cursor: pointer;
+}
+.CoursesTextIcons h5{
+    /* background: rgb(255, 255, 255); */
+    background: transparent;
+    /* padding: 8px; */
+    display: flex;
+    font-size:12px;
+    gap: 10px;
+}
+.CoursesTextIcons h5{
+
+    /* background-color: rgb(113, 173, 222); */
+    /* background-color: #00a3ff; */
+    color: #00a3ff;
+    font-weight: 400;
+    /* padding-top: 5px; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+    
+}
+.CoursesTextIcons h5{
+    /* background: rgb(255, 255, 255); */
+    /* background: linear-gradient(179deg, #e26363, #ffffff); */
+    /* padding: 3.5px;
+    color:#316d9e;
+    font-size: 12px; */
+    /* letter-spacing: 6px; */
+    /* text-align: center;
+    border-style: solid; */
+    /* border-image: linear-gradient(to right, #fba6a6, #491c5f) 1; */
+    /* border-width: 1px; */
+    /* margin-top: 13px; */
+}
+
+.cardFlex h4{
+    background: #00a3ff;
+    color: rgb(255, 255, 255);
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 15px;
+}
+.cardFlex h4:hover{
+    background: #e26363;
+    color: rgb(255, 255, 255);
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 15px;
+}
+.CoursesTextIcons h5:hover{
+    color: rgb(255, 255, 255);
+    /* background: linear-gradient(53deg, #fff, #6abcba, #45ff92, #fff);
+    border-image: antiquewhite;
+    border: 3px solid #ffffff; */
+    background: #00a3ff;
+}
+
+.CoursesTextIcons h5:nth-child(3){
+    display: none;
+}
+.CoursesTextIcons h5 i{
+   
+    color: #000000;
+    padding: 6px;
+
+    border-radius: 50%;
+    font-size: 13px;
+    color: white;
+    background: #00a3ff;
+}
+/* .CoursesTextIcons h5:hover{
+    color: rgb(35, 10, 100);
+    text-decoration: underline;
+} */
+
+.cardFlex h4:hover {
+    /* color: white;
+    background: linear-gradient(53deg, #fff, #6abcba, #45ff92, #fff);
+    border-image: antiquewhite;
+    border: 3px solid #ffffff; */
+}
+
+
+/* .CoursesTextIcons {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    background: #8abfde;
+    width: 100%;
+    padding-bottom: 2rem;
+    border-radius: 17px;
+} */
+
+
+/* h4::before {
+    content: '';
+    background-image: linear-gradient(45deg, black, red);
+    animation: rotbg 3s linear infinite;
+    transition: all 0.2s liner;
+    position: absolute;
+    width: 20px;
+    height: 10px;
+}
+@keyframes rotbg{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+h4::after{
+    content: '';
+    background: #000;
+    inset: 5px;
+    position: absolute;
+} */
+
+@media (max-width: 768px) {
+
+.explore-contantText h1{
+    font-size: 2.5rem;
+}
+}
+
+@keyframes  hand {
+    to{
+        transform: translate(8px);
+    }
+    
+}
